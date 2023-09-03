@@ -1,0 +1,122 @@
+.cabecalho {
+    height: 250px;
+    background-color: #1a2828;
+    position: relative;
+}
+
+h1 {
+    font-family: 'Comic Sans Ms';
+    text-align: center;
+    font-size: 60px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 20px;
+}
+
+.wave {
+    position: relative;
+    top: 210px;
+    height: 40px;
+}
+
+
+
+
+/*   /////////////////    */
+
+.img {
+    max-width: auto;
+    max-height: 300px;
+    border: 5px solid #1a2828;
+}
+
+.container1 {
+    max-width: 200px;
+    max-height: 300px;
+    position: absolute;
+    left: 300px;
+    top: 300px;
+}
+.container2 {
+    max-width: 200px;
+    max-height: 300px;
+    position: absolute;
+    left: 650px;
+    top: 300px;
+}
+.container3 {
+    max-width: 200px;
+    max-height: 300px;
+    position: absolute;
+    left: 1000px;
+    top: 300px;
+}
+
+.descricao1 {
+    position: absolute;
+    left: 37%;
+    top: 100%;
+    transform: translateX(-20%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, top 0.3s, visibility 0.3s;
+}
+
+.descricao2 {
+    position: absolute;
+    left: 30%;
+    top: 100%;
+    transform: translateX(-20%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, top 0.3s, visibility 0.3s;
+}
+
+.descricao3 {
+    position: absolute;
+    left: 33%;
+    top: 100%;
+    transform: translateX(-20%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, top 0.3s, visibility 0.3s;
+}
+
+
+.container1:hover .descricao1
+ {
+    opacity: 1;
+    top: calc(100% + 10px);
+    visibility: visible;
+}
+
+.container2:hover .descricao2 {
+    opacity: 1;
+    top: calc(100% + 10px);
+    visibility: visible;
+}
+
+.container3:hover .descricao3 {
+    opacity: 1;
+    top: calc(100% + 10px);
+    visibility: visible;
+}
+
+
+
+
+
+
