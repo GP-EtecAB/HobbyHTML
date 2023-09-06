@@ -4,13 +4,16 @@
     position: relative;
 }
 
+.titulo {
+    position: relative;
+    font-size: 60px;
+}
+
 h1 {
     font-family: 'Comic Sans Ms';
     text-align: center;
-    font-size: 60px;
     padding: 0;
     margin: 0;
-    position: relative;
     top: 20px;
 }
 
@@ -25,10 +28,25 @@ h1 {
 
 /*   /////////////////    */
 
-.img {
+.img1 {
     max-width: auto;
     max-height: 300px;
     border: 5px solid #1a2828;
+    transition: 0.3s;
+}
+
+.img2 {
+    max-width: auto;
+    max-height: 300px;
+    border: 5px solid #1a2828;
+    transition: 0.3s;
+}
+
+.img3 {
+    max-width: auto;
+    max-height: 300px;
+    border: 5px solid #1a2828;
+    transition: 0.3s;
 }
 
 .container1 {
@@ -69,7 +87,7 @@ h1 {
 
 .descricao2 {
     position: absolute;
-    left: 30%;
+    left: 35%;
     top: 100%;
     transform: translateX(-20%);
     background-color: rgba(0, 0, 0, 0.8);
@@ -83,7 +101,7 @@ h1 {
 
 .descricao3 {
     position: absolute;
-    left: 33%;
+    left: 36%;
     top: 100%;
     transform: translateX(-20%);
     background-color: rgba(0, 0, 0, 0.8);
@@ -99,24 +117,49 @@ h1 {
 .container1:hover .descricao1
  {
     opacity: 1;
-    top: calc(100% + 10px);
+    top: calc(100% + 30px);
     visibility: visible;
 }
 
 .container2:hover .descricao2 {
     opacity: 1;
-    top: calc(100% + 10px);
+    top: calc(100% + 30px);
     visibility: visible;
 }
 
 .container3:hover .descricao3 {
     opacity: 1;
-    top: calc(100% + 10px);
+    top: calc(100% + 30px);
     visibility: visible;
 }
 
 
 
 
+.container1:hover .img1 {
+    transform: scale(1.08);
+    left: 285px;
+}
+
+.container2:hover .img2 {
+    transform: scale(1.08);
+    left: 285px;
+}
+
+.container3:hover .img3 {
+    transform: scale(1.08);
+    left: 285px;
+}
+
+/*////////////////////////////////////*/
+
+
+.voltar {
+    position: absolute;
+    font-size: 80px;
+    color: white;
+    left: 4%;
+    top: 60px;
+}
 
 
